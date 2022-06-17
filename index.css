@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  flex-direction: column;
+  background-color: hsl(0, 100%, 74%);
+  font-size: 16px;
+  font-weight: 500;
+  background-image: url(background_img.png);
+  background-size: cover;
+}
+
+.main-text {
+  color: white;
+  margin: 5px;
+  font-size: 16px;
+  flex-basis: 20px;
+  
+}
+.container button{
+background-color: rgb(91, 31, 146);
+color: white;
+margin: 50px;
+  padding: 5px ;
+   border-radius: 5px;
+     border-style: none;
+     width: 400px;
+     font-size: 10x;
+  height: 40px;
+}
+.main-text h1{
+  line-height: 40px;
+  position: absolute;
+  top: 22%;
+  left: 31%;
+  padding: 10px;
+  margin: 10px;
+}
+label{
+
+}
+
+.main-text h5 {
+  line-height:20px;
+  position:absolute;
+  bottom: 65%;
+  left: 31%;
+  text-align:left;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+main button {
+ 
+  
+  border: 0;
+ 
+
+  
+  
+  
+}
+.form-tag label{
+  background-color: black;
+}
+
+.wrapper{
+  display: flex;
+  padding-right: 50px;
+}
+
+.form-tag {
+  background-color: white;
+  border-radius: 10px;
+  height: 40px;
+  padding: 20px;
+  margin: 5px;
+  display: flex;
+  min-height: 20vh;
+}
+
+.form-tag button {
+  background-color: hsl(140, 37%, 52%);
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  height: 40px;
+  margin: 50px;
+  padding: 5px ;
+  width: 400px;
+  font-size: 10x;
+  height: 40px;
+}
+
+.container{
+  display: flex;
+}
